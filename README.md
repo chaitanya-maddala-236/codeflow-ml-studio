@@ -177,7 +177,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Styling with [Tailwind CSS](https://tailwindcss.com/)
 
 ---
-
-**Ready to start building amazing ML applications?** 🚀
-
-[Get started with Lovable](https://lovable.dev/projects/f85dfb19-d14a-404c-b42c-398cad4c2be0) | [View Live Demo](#) | [Report Issues](https://github.com/chaitanya-maddala-236/codeflow-ml-studio/issues)
