@@ -1,73 +1,183 @@
-# Welcome to your Lovable project
+# CodeFlow ML Studio
 
-## Project info
+A modern, web-based machine learning studio built with React and TypeScript. CodeFlow ML Studio provides an intuitive interface for data scientists and ML engineers to build, train, and deploy machine learning models with ease.
 
-**URL**: https://lovable.dev/projects/f85dfb19-d14a-404c-b42c-398cad4c2be0
+## 🚀 Features
 
-## How can I edit this code?
+- **Interactive ML Workspace**: Visual interface for building and experimenting with machine learning models
+- **Real-time Collaboration**: Built with modern web technologies for seamless team collaboration
+- **Responsive Design**: Works perfectly across desktop, tablet, and mobile devices
+- **Modern UI/UX**: Built with shadcn-ui components and Tailwind CSS for a clean, professional interface
+- **TypeScript Support**: Full type safety for better development experience
+- **Fast Development**: Powered by Vite for lightning-fast hot module replacement
 
-There are several ways of editing your application.
+## 🛠️ Tech Stack
 
-**Use Lovable**
+- **Frontend Framework**: React 18
+- **Language**: TypeScript
+- **Build Tool**: Vite
+- **Styling**: Tailwind CSS
+- **UI Components**: shadcn-ui
+- **Development Platform**: Lovable
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/f85dfb19-d14a-404c-b42c-398cad4c2be0) and start prompting.
+## 📋 Prerequisites
 
-Changes made via Lovable will be committed automatically to this repo.
+Before you begin, ensure you have the following installed:
+- [Node.js](https://nodejs.org/) (version 16 or higher)
+- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
 
-**Use your preferred IDE**
+For easy Node.js management, we recommend using [nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## ⚡ Quick Start
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### Option 1: Using Lovable (Recommended)
 
-Follow these steps:
+The easiest way to get started is through the Lovable platform:
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+1. Visit the [CodeFlow ML Studio Project](https://lovable.dev/projects/f85dfb19-d14a-404c-b42c-398cad4c2be0)
+2. Start making changes through natural language prompts
+3. All changes are automatically committed to this repository
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+### Option 2: Local Development
 
-# Step 3: Install the necessary dependencies.
-npm i
+Clone and run the project locally:
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+```bash
+# Clone the repository
+git clone https://github.com/chaitanya-maddala-236/codeflow-ml-studio.git
+
+# Navigate to the project directory
+cd codeflow-ml-studio
+
+# Install dependencies
+npm install
+
+# Start the development server
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+The application will be available at `http://localhost:5173`
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+### Option 3: GitHub Codespaces
 
-**Use GitHub Codespaces**
+1. Navigate to the repository on GitHub
+2. Click the "Code" button (green button)
+3. Select the "Codespaces" tab
+4. Click "New codespace" to launch a cloud development environment
+5. Run `npm install` and `npm run dev` in the terminal
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+### Option 4: Direct GitHub Editing
 
-## What technologies are used for this project?
+For quick changes:
+1. Navigate to the desired file in the GitHub repository
+2. Click the "Edit" button (pencil icon)
+3. Make your changes and commit directly
 
-This project is built with:
+## 📁 Project Structure
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+```
+codeflow-ml-studio/
+├── src/
+│   ├── components/          # Reusable React components
+│   ├── pages/              # Application pages
+│   ├── hooks/              # Custom React hooks
+│   ├── utils/              # Utility functions
+│   ├── types/              # TypeScript type definitions
+│   └── styles/             # Global styles
+├── public/                 # Static assets
+├── package.json           # Project dependencies and scripts
+├── tsconfig.json          # TypeScript configuration
+├── tailwind.config.js     # Tailwind CSS configuration
+└── vite.config.ts         # Vite configuration
+```
 
-## How can I deploy this project?
+## 🔧 Available Scripts
 
-Simply open [Lovable](https://lovable.dev/projects/f85dfb19-d14a-404c-b42c-398cad4c2be0) and click on Share -> Publish.
+- `npm run dev` - Start the development server
+- `npm run build` - Build the project for production
+- `npm run preview` - Preview the production build locally
+- `npm run lint` - Run ESLint for code quality checks
 
-## Can I connect a custom domain to my Lovable project?
+## 🚀 Deployment
 
-Yes, you can!
+### Deploy to Lovable
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+The simplest deployment method:
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+1. Open [Lovable](https://lovable.dev/projects/f85dfb19-d14a-404c-b42c-398cad4c2be0)
+2. Click on Share → Publish
+3. Your application will be live instantly
+
+### Custom Domain Setup
+
+To connect a custom domain:
+
+1. Navigate to Project → Settings → Domains in Lovable
+2. Click Connect Domain
+3. Follow the [custom domain setup guide](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+
+## 🤝 Contributing
+
+We welcome contributions to CodeFlow ML Studio! Here's how you can help:
+
+1. **Fork the repository**
+2. **Create a feature branch**
+   ```bash
+   git checkout -b feature/amazing-feature
+   ```
+3. **Make your changes**
+4. **Commit your changes**
+   ```bash
+   git commit -m 'Add some amazing feature'
+   ```
+5. **Push to the branch**
+   ```bash
+   git push origin feature/amazing-feature
+   ```
+6. **Open a Pull Request**
+
+### Development Guidelines
+
+- Follow TypeScript best practices
+- Use meaningful component and variable names
+- Write clean, documented code
+- Test your changes across different screen sizes
+- Ensure all TypeScript errors are resolved
+
+## 📖 Documentation
+
+- [Vite Documentation](https://vitejs.dev/)
+- [React Documentation](https://reactjs.org/)
+- [TypeScript Handbook](https://www.typescriptlang.org/docs/)
+- [Tailwind CSS Documentation](https://tailwindcss.com/docs)
+- [shadcn-ui Components](https://ui.shadcn.com/)
+
+## 🐛 Issues and Bug Reports
+
+If you encounter any issues or have suggestions for improvements:
+
+1. Check existing [issues](https://github.com/chaitanya-maddala-236/codeflow-ml-studio/issues)
+2. Create a new issue with detailed information about the problem
+3. Include steps to reproduce the issue
+4. Provide your environment details (OS, browser, Node.js version)
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 👨‍💻 Author
+
+**Chaitanya Maddala**
+- GitHub: [@chaitanya-maddala-236](https://github.com/chaitanya-maddala-236)
+
+## 🙏 Acknowledgments
+
+- Built with [Lovable](https://lovable.dev/) - The AI-powered development platform
+- UI components powered by [shadcn-ui](https://ui.shadcn.com/)
+- Styling with [Tailwind CSS](https://tailwindcss.com/)
+
+---
+
+**Ready to start building amazing ML applications?** 🚀
+
+[Get started with Lovable](https://lovable.dev/projects/f85dfb19-d14a-404c-b42c-398cad4c2be0) | [View Live Demo](#) | [Report Issues](https://github.com/chaitanya-maddala-236/codeflow-ml-studio/issues)
